@@ -13,7 +13,15 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Pokedex'),
+          leading: Icon(
+            Icons.menu_book,
+            color: Colors.grey,
+          ),
+          title: Text(
+            'Pokedex',
+            style: TextStyle(color: Colors.grey),
+          ),
+          elevation: 2,
         ),
         body: FutureBuilder<List<PokeAPI>>(
           future: ambilData(),
