@@ -1,6 +1,6 @@
 # pokedex
 
-A new Flutter project.
+A new Flutter project fetch data from PokeAPI
 
 ## Getting Started
 
